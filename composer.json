@@ -1,0 +1,21 @@
+{
+    "name": "anton.kutakov/nova-poshta-shipping",
+    "description": "Nova Poshta shipping plugin",
+    "type": "project",
+    "authors": [
+        {
+            "name": "antonKutakov",
+            "email": "antonkutakov21@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WooNovaPoshtaShipping\\App\\"              : "app/",
+            "WooNovaPoshtaShipping\\App\\Controllers\\" : "app/controllers/",
+            "WooNovaPoshtaShipping\\App\\Helpers\\"     : "app/helpers/",
+            "WooNovaPoshtaShipping\\App\\Models\\"      : "app/models/",
+            "WooNovaPoshtaShipping\\App\\Renders\\"     : "app/renders/"
+        }
+    }
+}
